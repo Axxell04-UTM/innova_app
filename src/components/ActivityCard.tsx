@@ -10,8 +10,8 @@ import { Host, Icon } from "@expo/ui";
 import { Text, TouchableOpacity } from "react-native";
 
 interface Props {
-  activity: "race" | "cycling" | "swimming" | "force" | "yoga" | "hit";
-  currentActivity: ActivityTypes;
+  activity: ActivityTypes;
+  currentActivity: ActivityTypes | "";
   updateCurrentActivity: (activity: ActivityTypes) => void;
 }
 
@@ -25,12 +25,12 @@ export function ActivityCard({
   const isSelected = activity === currentActivity;
 
   const icons = {
-    race: VitalSigns,
-    cycling: DirectionsBike,
-    swimming: Pool,
-    force: Exercise,
+    carrera: VitalSigns,
+    ciclismo: DirectionsBike,
+    natación: Pool,
+    fuerza: Exercise,
     yoga: AccessibilityNew,
-    hit: ElectricBolt,
+    hiit: ElectricBolt,
   } as const;
 
   return (

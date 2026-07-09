@@ -9,6 +9,13 @@ export interface AppTheme extends Theme {
     placeholderColor: string;
     success: string;
     warning: string;
+    blue: string;
+    blue2: string;
+    red: string;
+    violet: string;
+    green: string;
+    bgRed: string;
+    bgGreen: string;
   };
 
   spacing: {
@@ -16,6 +23,18 @@ export interface AppTheme extends Theme {
     sm: number;
     md: number;
     lg: number;
+  };
+
+  size: {
+    xs: number;
+    sm: number;
+    base: number;
+    lg: number;
+    xl: number;
+    xl2: number;
+    xl3: number;
+    xl4: number;
+    xl5: number;
   };
 
   radius: {
