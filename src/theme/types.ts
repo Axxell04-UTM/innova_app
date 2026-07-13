@@ -13,9 +13,19 @@ export interface AppTheme extends Theme {
     blue2: string;
     red: string;
     violet: string;
+    violet2: string;
+    yellow: string;
     green: string;
     bgRed: string;
     bgGreen: string;
+    bgGreen2: string;
+    bgViolet: string;
+    bgViolet2: string;
+    bgYellow: string;
+    bgYellow2: string;
+    bgBorderYellow: string;
+    bgBorderViolet: string;
+    bgBorderGreen: string;
   };
 
   spacing: {

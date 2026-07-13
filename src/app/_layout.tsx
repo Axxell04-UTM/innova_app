@@ -59,8 +59,8 @@ export default function RootLayout() {
             <NativeTabs.Trigger.Label>Entrena</NativeTabs.Trigger.Label>
             <NativeTabs.Trigger.Icon md="local_fire_department" />
           </NativeTabs.Trigger>
-          <NativeTabs.Trigger name="registro">
-            <NativeTabs.Trigger.Label>Registro</NativeTabs.Trigger.Label>
+          <NativeTabs.Trigger name="resumen">
+            <NativeTabs.Trigger.Label>Resumen</NativeTabs.Trigger.Label>
             <NativeTabs.Trigger.Icon md="trophy" />
           </NativeTabs.Trigger>
         </NativeTabs>
